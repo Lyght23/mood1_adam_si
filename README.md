@@ -20,6 +20,8 @@ Invitamos a los usuarios a contribuir con sugerencias de nuevas fuentes de infor
 
 Este documento es un esfuerzo colaborativo para apoyar a la comunidad informática en el acceso a información de calidad y relevante. ¡Tu participación hace la diferencia!
 
+## Como Descargarlo
+
 1. Te recomendo que crees una carpeta donde quieras descargarlo haciendo un "mkdir (elnombre)" y luego hagas un "git clone https://github.com/sprintcube/docker-compose-lamp.git" 
 
 2. Luego te mueves a la carpeta con este comando: "cd docker-compose-lamp/"
