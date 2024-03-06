@@ -791,3 +791,99 @@ AH00558: apache2: Could not reliably determine the server's fully qualified doma
 [Tue Mar 05 12:10:07.388821 2024] [authz_core:error] [pid 21] [client 172.20.0.1:43750] AH01630: client denied by server configuration: /var/www/html/server-status
 [Tue Mar 05 12:10:07.988657 2024] [authz_core:error] [pid 17] [client 172.20.0.1:43764] AH01630: client denied by server configuration: /var/www/html/server-status
 [Tue Mar 05 12:14:19.816598 2024] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.5. Set the 'ServerName' directive globally to suppress this message
+[Wed Mar 06 08:13:42.344830 2024] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.57 (Debian) PHP/8.3.2 OpenSSL/3.0.11 configured -- resuming normal operations
+[Wed Mar 06 08:13:42.344851 2024] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Mar 06 08:15:04.157287 2024] [authz_core:error] [pid 19] [client 172.18.0.1:49846] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 08:15:04.515310 2024] [authz_core:error] [pid 20] [client 172.18.0.1:49858] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 08:15:05.671825 2024] [autoindex:error] [pid 21] [client 172.18.0.1:49872] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Mar 06 08:15:07.832634 2024] [authz_core:error] [pid 22] [client 172.18.0.1:33810] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 08:20:04.109300 2024] [authz_core:error] [pid 17] [client 172.18.0.1:59274] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 08:20:04.447031 2024] [authz_core:error] [pid 18] [client 172.18.0.1:59276] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 08:20:05.579041 2024] [autoindex:error] [pid 19] [client 172.18.0.1:59284] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Mar 06 08:20:07.777385 2024] [authz_core:error] [pid 20] [client 172.18.0.1:33870] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 08:25:03.758305 2024] [authz_core:error] [pid 22] [client 172.18.0.1:49548] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 08:25:04.119147 2024] [authz_core:error] [pid 25] [client 172.18.0.1:49554] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 08:25:05.242465 2024] [autoindex:error] [pid 17] [client 172.18.0.1:49568] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Mar 06 08:25:07.616257 2024] [authz_core:error] [pid 24] [client 172.18.0.1:38576] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 08:30:03.950332 2024] [authz_core:error] [pid 18] [client 172.18.0.1:53332] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 08:30:04.325028 2024] [authz_core:error] [pid 26] [client 172.18.0.1:53346] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 08:30:05.544795 2024] [autoindex:error] [pid 19] [client 172.18.0.1:53356] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Mar 06 08:30:07.828057 2024] [authz_core:error] [pid 21] [client 172.18.0.1:55760] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 08:35:03.418780 2024] [authz_core:error] [pid 20] [client 172.18.0.1:50212] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 08:35:03.765500 2024] [authz_core:error] [pid 23] [client 172.18.0.1:50220] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 08:35:04.913364 2024] [autoindex:error] [pid 22] [client 172.18.0.1:50236] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Mar 06 08:35:07.163439 2024] [authz_core:error] [pid 25] [client 172.18.0.1:38566] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 08:40:03.683384 2024] [authz_core:error] [pid 24] [client 172.18.0.1:52642] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 08:40:04.014143 2024] [authz_core:error] [pid 19] [client 172.18.0.1:52658] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 08:40:05.260851 2024] [autoindex:error] [pid 18] [client 172.18.0.1:52668] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Mar 06 08:40:07.686611 2024] [authz_core:error] [pid 27] [client 172.18.0.1:49740] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 08:45:04.060087 2024] [authz_core:error] [pid 24] [client 172.18.0.1:36846] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 08:45:04.412433 2024] [authz_core:error] [pid 27] [client 172.18.0.1:36852] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 08:45:05.616858 2024] [autoindex:error] [pid 19] [client 172.18.0.1:36862] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Mar 06 08:45:08.068985 2024] [authz_core:error] [pid 22] [client 172.18.0.1:44514] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 08:50:03.681514 2024] [authz_core:error] [pid 20] [client 172.18.0.1:55344] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 08:50:04.105805 2024] [authz_core:error] [pid 17] [client 172.18.0.1:55350] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 08:50:05.409706 2024] [autoindex:error] [pid 24] [client 172.18.0.1:55364] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Mar 06 08:50:07.725212 2024] [authz_core:error] [pid 27] [client 172.18.0.1:51898] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 08:55:04.381282 2024] [authz_core:error] [pid 23] [client 172.18.0.1:34962] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 08:55:04.707078 2024] [authz_core:error] [pid 27] [client 172.18.0.1:34966] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 08:55:05.986398 2024] [autoindex:error] [pid 37] [client 172.18.0.1:34978] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Mar 06 08:55:08.242974 2024] [authz_core:error] [pid 28] [client 172.18.0.1:45646] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 09:00:03.773704 2024] [authz_core:error] [pid 40] [client 172.18.0.1:47580] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 09:00:04.108754 2024] [authz_core:error] [pid 37] [client 172.18.0.1:47590] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 09:00:05.222997 2024] [autoindex:error] [pid 27] [client 172.18.0.1:47592] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Mar 06 09:00:07.467873 2024] [authz_core:error] [pid 36] [client 172.18.0.1:59910] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 09:05:04.450131 2024] [authz_core:error] [pid 40] [client 172.18.0.1:38890] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 09:05:04.855804 2024] [authz_core:error] [pid 37] [client 172.18.0.1:38894] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 09:05:06.154233 2024] [autoindex:error] [pid 27] [client 172.18.0.1:38906] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Mar 06 09:05:08.674334 2024] [authz_core:error] [pid 36] [client 172.18.0.1:50324] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 09:10:04.362735 2024] [authz_core:error] [pid 34] [client 172.18.0.1:42630] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 09:10:04.691515 2024] [authz_core:error] [pid 39] [client 172.18.0.1:42646] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 09:10:05.818086 2024] [autoindex:error] [pid 23] [client 172.18.0.1:42654] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Mar 06 09:10:08.205056 2024] [authz_core:error] [pid 18] [client 172.18.0.1:56062] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 09:15:03.613047 2024] [authz_core:error] [pid 34] [client 172.18.0.1:49910] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 09:15:03.973293 2024] [authz_core:error] [pid 39] [client 172.18.0.1:49916] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 09:15:05.156671 2024] [autoindex:error] [pid 23] [client 172.18.0.1:49918] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Mar 06 09:15:07.477503 2024] [authz_core:error] [pid 18] [client 172.18.0.1:43428] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 09:20:03.926771 2024] [authz_core:error] [pid 18] [client 172.18.0.1:51968] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 09:20:04.311355 2024] [authz_core:error] [pid 40] [client 172.18.0.1:51982] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 09:20:05.404348 2024] [autoindex:error] [pid 27] [client 172.18.0.1:51996] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Mar 06 09:20:07.654162 2024] [authz_core:error] [pid 35] [client 172.18.0.1:41400] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 09:25:03.999452 2024] [authz_core:error] [pid 36] [client 172.18.0.1:45086] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 09:25:04.300338 2024] [authz_core:error] [pid 38] [client 172.18.0.1:45098] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 09:25:05.436779 2024] [autoindex:error] [pid 37] [client 172.18.0.1:45114] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Mar 06 09:25:07.622049 2024] [authz_core:error] [pid 34] [client 172.18.0.1:58766] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 09:30:04.254016 2024] [authz_core:error] [pid 39] [client 172.18.0.1:33806] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 09:30:04.619813 2024] [authz_core:error] [pid 23] [client 172.18.0.1:33814] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 09:30:05.839703 2024] [autoindex:error] [pid 18] [client 172.18.0.1:33830] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Mar 06 09:30:08.050736 2024] [authz_core:error] [pid 40] [client 172.18.0.1:44908] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 09:35:03.687898 2024] [authz_core:error] [pid 27] [client 172.18.0.1:54986] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 09:35:04.081087 2024] [authz_core:error] [pid 35] [client 172.18.0.1:54996] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 09:35:05.209861 2024] [autoindex:error] [pid 36] [client 172.18.0.1:54998] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Mar 06 09:35:07.666090 2024] [authz_core:error] [pid 38] [client 172.18.0.1:60618] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 09:40:04.215349 2024] [authz_core:error] [pid 37] [client 172.18.0.1:36414] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 09:40:04.614175 2024] [authz_core:error] [pid 34] [client 172.18.0.1:36416] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 09:40:05.756868 2024] [autoindex:error] [pid 39] [client 172.18.0.1:36418] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Mar 06 09:40:07.973815 2024] [authz_core:error] [pid 23] [client 172.18.0.1:40648] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 09:45:04.168109 2024] [authz_core:error] [pid 18] [client 172.18.0.1:50446] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 09:45:04.574592 2024] [authz_core:error] [pid 40] [client 172.18.0.1:50460] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 09:45:05.738952 2024] [autoindex:error] [pid 27] [client 172.18.0.1:50466] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Mar 06 09:45:08.127515 2024] [authz_core:error] [pid 35] [client 172.18.0.1:50268] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 09:50:03.641126 2024] [authz_core:error] [pid 36] [client 172.18.0.1:52160] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 09:50:04.047613 2024] [authz_core:error] [pid 38] [client 172.18.0.1:52176] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 09:50:05.175569 2024] [autoindex:error] [pid 37] [client 172.18.0.1:52184] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Mar 06 09:50:07.509124 2024] [authz_core:error] [pid 34] [client 172.18.0.1:48496] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 09:55:03.707474 2024] [authz_core:error] [pid 39] [client 172.18.0.1:36390] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 09:55:04.059196 2024] [authz_core:error] [pid 23] [client 172.18.0.1:36404] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 09:55:05.200368 2024] [autoindex:error] [pid 18] [client 172.18.0.1:36408] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Mar 06 09:55:07.427626 2024] [authz_core:error] [pid 40] [client 172.18.0.1:51794] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 10:00:03.590981 2024] [authz_core:error] [pid 38] [client 172.18.0.1:45976] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 10:00:03.916144 2024] [authz_core:error] [pid 37] [client 172.18.0.1:45986] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 10:00:05.002948 2024] [autoindex:error] [pid 34] [client 172.18.0.1:45996] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Mar 06 10:00:07.217137 2024] [authz_core:error] [pid 39] [client 172.18.0.1:32954] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 10:05:04.150514 2024] [authz_core:error] [pid 23] [client 172.18.0.1:52560] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 10:05:04.545448 2024] [authz_core:error] [pid 18] [client 172.18.0.1:52564] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 10:05:05.682125 2024] [autoindex:error] [pid 40] [client 172.18.0.1:52568] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Mar 06 10:05:07.998998 2024] [authz_core:error] [pid 27] [client 172.18.0.1:43100] AH01630: client denied by server configuration: /var/www/html/server-status
+[Wed Mar 06 10:06:18.596333 2024] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
